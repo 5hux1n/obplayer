@@ -1,0 +1,1 @@
+document.querySelector('#speed').addEventListener('input',event=>{document.querySelector('#speed-value').textContent=(Number(event.target.value)/100).toFixed(2)+'×'});
